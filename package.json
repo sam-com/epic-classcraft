@@ -1,12 +1,11 @@
 {
   "name": "advanced-react-hooks",
-  "title": "Advanced React Hooks 🔥",
+  "title": "Dev Team Workshops 📚",
   "description": "The best resources for you to learn advanced react hooks",
-  "author": "Kent C. Dodds <me@kentcdodds.com> (https://kentcdodds.com/)",
+  "author": "sam-com",
   "version": "1.0.0",
   "private": true,
   "keywords": [],
-  "homepage": "https://advanced-react-hooks.netlify.com/",
   "license": "GPL-3.0-only",
   "main": "src/index.js",
   "engines": {
@@ -14,7 +13,7 @@
     "npm": ">=8.16.0"
   },
   "dependencies": {
-    "@kentcdodds/react-workshop-app": "^6.0.1",
+    "@kentcdodds/react-workshop-app": "git+ssh://github.com/sam-com/react-workshop-app#1ab7a5782d8cd2a29fcdefd8116536b29edfa061",
     "@testing-library/react": "^13.3.0",
     "@testing-library/user-event": "^14.2.1",
     "chalk": "^4.1.2",
@@ -22,7 +21,8 @@
     "mq-polyfill": "^1.1.8",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-error-boundary": "^3.1.4"
+    "react-error-boundary": "^3.1.4",
+    "unique-names-generator": "^4.7.1"
   },
   "devDependencies": {
     "@craco/craco": "^6.4.3",
